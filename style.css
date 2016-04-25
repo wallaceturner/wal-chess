@@ -40,7 +40,26 @@
     margin: 10px auto;
     background-color: lightblue;    
 }
-/*@media (min-width: 720px) {
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .container {
+        width: 50%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        width: 50%;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 40%;
+    }
+}
+
+    
+
+    /*@media (min-width: 720px) {
     .container {
         background-color: lightgreen;
         width: 60%;
@@ -53,40 +72,41 @@
 }*/
 
 
-.white-bishop {
-  background-image: url(/images/pieces/white-bishop.svg);
-}
-.white-king {
-  background-image: url(/images/pieces/white-king.svg);
-}
-.white-knight {
-  background-image: url(/images/pieces/white-knight.svg);
-}
-.white-pawn {
-  background-image: url(/images/pieces/white-pawn.svg);
-}
-.white-queen {
-  background-image: url(/images/pieces/white-queen.svg);
-}
-.white-rook {
-  background-image: url(/images/pieces/white-rook.svg);
-}
+    .white-bishop {
+        background-image: url(/images/pieces/white-bishop.svg);
+    }
+    .white-king {
+        background-image: url(/images/pieces/white-king.svg);
+    }
+    .white-knight {
+        background-image: url(/images/pieces/white-knight.svg);
+    }
+    .white-pawn {
+        background-image: url(/images/pieces/white-pawn.svg);
+    }
+    .white-queen {
+        background-image: url(/images/pieces/white-queen.svg);
+    }
+    .white-rook {
+        background-image: url(/images/pieces/white-rook.svg);
+    }
 
-.black-bishop {
-  background-image: url(/images/pieces/black-bishop.svg);
-}
-.black-king {
-  background-image: url(/images/pieces/black-king.svg);
-}
-.black-knight {
-  background-image: url(/images/pieces/black-knight.svg);
-}
-.black-pawn {
-  background-image: url(/images/pieces/black-pawn.svg);
-}
-.black-queen {
-  background-image: url(/images/pieces/black-queen.svg);
-}
-.black-rook {
-  background-image: url(/images/pieces/black-rook.svg);
-}
+    .black-bishop {
+        background-image: url(/images/pieces/black-bishop.svg);
+    }
+    .black-king {
+        background-image: url(/images/pieces/black-king.svg);
+    }
+    .black-knight {
+        background-image: url(/images/pieces/black-knight.svg);
+    }
+    .black-pawn {
+        background-image: url(/images/pieces/black-pawn.svg);
+    }
+    .black-queen {
+        background-image: url(/images/pieces/black-queen.svg);
+    }
+    .black-rook {
+        background-image: url(/images/pieces/black-rook.svg);
+    }
+    
