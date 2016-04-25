@@ -37,18 +37,57 @@
 
 .container {
     width: 95%;
-    margin: auto;
+    margin: 10px auto;
     background-color: lightblue;
     
 }
 @media (min-width: 480px) {
     .container {
         background-color: lightgreen;
-        width: 75%;
+        width: 60%;
     }
 }
 @media (min-width: 1160px) {
     .container {        
-        width: 50%;
+        width: 40%;
     }
+}
+
+
+.white-bishop {
+  background-image: url(/images/pieces/white-bishop.svg);
+}
+.white-king {
+  background-image: url(/images/pieces/white-king.svg);
+}
+.white-knight {
+  background-image: url(/images/pieces/white-knight.svg);
+}
+.white-pawn {
+  background-image: url(/images/pieces/white-pawn.svg);
+}
+.white-queen {
+  background-image: url(/images/pieces/white-queen.svg);
+}
+.white-rook {
+  background-image: url(/images/pieces/white-rook.svg);
+}
+
+.black-bishop {
+  background-image: url(/images/pieces/black-bishop.svg);
+}
+.black-king {
+  background-image: url(/images/pieces/black-king.svg);
+}
+.black-knight {
+  background-image: url(/images/pieces/black-knight.svg);
+}
+.black-pawn {
+  background-image: url(/images/pieces/black-pawn.svg);
+}
+.black-queen {
+  background-image: url(/images/pieces/black-queen.svg);
+}
+.black-rook {
+  background-image: url(/images/pieces/black-rook.svg);
 }
